@@ -33,7 +33,7 @@ model.eval()
 
 # Inference
 while True:
-    x = input("Insert a name for inference or press 'Q' to quit.\n")
+    x = input("Insert a name for inference or press 'Q' to quit...\n")
     if x=='Q':
         break
     predict(model=model, input=x, all_categories=all_categories)
