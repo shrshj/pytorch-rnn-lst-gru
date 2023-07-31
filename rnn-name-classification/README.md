@@ -1,21 +1,10 @@
 ## RNN In PyTorch
-Implement a Recurrent Neural Net (RNN) from scratch in PyTorch! I briefly explain the theory and different kinds of applications of RNNs. Then we implement a RNN to do name classification.
+Implement a Recurrent Neural Net (RNN) from scratch in PyTorch!
 
-## Watch the Tutorial
-  [![Alt text](https://img.youtube.com/vi/WEV61GmmPrk/hqdefault.jpg)](https://youtu.be/WEV61GmmPrk)
+## Description
 
-## Resources
-Download the data:
-https://download.pytorch.org/tutorial/data.zip
+This project is a customized Recurrent Neural Network (RNN) model from [Link to the Main Repo](https://github.com/patrickloeber/pytorch-examples/tree/master/rnn-name-classification) designed to predict the country of origin for a given name. It is a "many-to-one" RNN model, where multiple input characters (the name) are processed sequentially to produce a single output (the predicted country).
 
-PyTorch Beginner Course:
-https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4
+The model uses the concept of sequence data processing to learn patterns and associations between names and their corresponding countries from a provided dataset.
 
-PyTorch Chatbot Tutorial:
-https://www.youtube.com/playlist?list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg
-
-Further Readings:
-
-- https://karpathy.github.io/2015/05/21/rnn-effectiveness/
-- https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks#architecture
-- https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
+The main goal of this customized version is to make the codebase more modular. 
